@@ -7,7 +7,7 @@ import React, { useState } from "react";
 
 interface PromptCardProps {
   post: any;
-  handleTagClick: any;
+  handleTagClick?: any;
   handleEdit: any;
   handleDelete: any;
 }
